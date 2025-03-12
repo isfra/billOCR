@@ -1,28 +1,16 @@
 from transformers import LayoutLMForTokenClassification, LayoutLMTokenizer, Trainer, TrainingArguments
 from datasets import Dataset
 import torch
+import dataset
 
 # Load a pre-trained LayoutLM model and tokenizer
 model_name = "microsoft/layoutlm-base-uncased"
-model = LayoutLMForTokenClassification.from_pretrained(model_name, num_labels=len(label_list))
+model = LayoutLMForTokenClassification.from_pretrained(model_name, num_labels=6)
 tokenizer = LayoutLMTokenizer.from_pretrained(model_name)
 
 # Prepare your dataset
 # Assume `dataset` is a list of dictionaries with "text" and "labels"
-dataset = [
-    {
-        "text": "Fattura nr. 1341 del 02/11/2024\nDestinatario: FARO S.R.L.S. VIA PIAVE, 55 00187 ROMA (RM) ITALY\n...",
-        "labels": {
-            "invoice_number": "1341",
-            "invoice_date": "02/11/2024",
-            "recipient": "FARO S.R.L.S. VIA PIAVE, 55 00187 ROMA (RM) ITALY",
-            "items": [...],
-            "total_amount": 1294.91,
-            "vat_amount": 233.51
-        }
-    },
-    ...
-]
+dataset = dataset.dataset_dict
 
 # Convert dataset to Hugging Face Dataset format
 hf_dataset = Dataset.from_dict({
@@ -42,7 +30,7 @@ training_args = TrainingArguments(
     evaluation_strategy="epoch",
     learning_rate=2e-5,
     per_device_train_batch_size=8,
-    num_train_epochs=3,
+    num_train_epochs=5,
     weight_decay=0.01,
 )
 

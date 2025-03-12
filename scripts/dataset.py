@@ -174,5 +174,119 @@ Pag. 1 """,
             "vat_amount": 233.51
         }
     },
-    ...
+{
+        "text": """GI.GROUP SRL
+
+VIALE PARIOLI,44 - 00197 Roma (RM) - Italy
+
+C.F./P.lva 15474631007 Reg. imprese 1592948
+
+Tel. 392/4563011 / Sede Operativa - Via di San Romano,56 A/B
+e-mail: infogigroupsri@gmail.com Pec: gigroupsri@legalmail.it Internet: https://w w w .gigroupstore.com
+
+Ingrosso di carta e distribuzione di materiale monouso e detergenza professionale HACCP.
+
+Fattura nr. 1521 del | 31/12/2024
+Destinatario Destinazione
+FARO S.R.L.S. FARO S.R.L.S.
+VIA PIAVE, 55 VIA PIAVE, 55
+00187 ROMA (RM) 00187 ROMA (RM)
+ITALY ITALY
+C.F./P.Iva 13796331000
+Codice Descrizione Quantita Prezzo Sconto Importo Ilva
+Rif. Doc. di trasporto 977 del 05/12/2024, 999 del
+12/12/2024, 1039 del 27/12/2024, 1049 del 30/12/2024:
+82228600 TOVAGLIOLO 24X24 DRINK ECONATURAL - 120 confezione€ 2,500 € 300,00 22
+FIBERPACK - CONFEZIONE 100PZ - CARTONE 12
+CONF
+0097 FOODBOX SMART FOLDABLE - PAPER KRAFT icartone € 65,000 €65,00 22
+152X120X65 MM - CARTONE 300 PZ
+91112 BICCHIERE CARTA L/CALDO 120Z- 360ML -CONF 8confezione€ 4,500 € 36,00 22
+50PZ
+99112 COPERCHIO BICCHIERE 120Z-360 ML-CONF 50PZ 3confezione€ 4,200 €12,60 22
+99154 COPERCHIO CARTA BICCHIERE 80Z-240 ML - CONF 8confezione€ 3,000 €24,00 22
+50PZ S/BECCUCCIO
+82994000 TOVAGLIOLO 38X38 ECONATURAL - MICROCOLLATO - 30 confezione€ 1,000 € 30,00 22
+CONFEZIONE 40PZ - CARTONE 30 CONF
+91110AL BICCHIERE CART.BIO 80Z-240 ML- CONF 50 PZ- 7confezione€ 3,000 €21,00 22
+CARTONE 16 CONF
+91110AL BICCHIERE CART.BIO 80Z-240 ML- CONF 50 PZ- 3confezione€ 3,000 €9,00 22
+CARTONE 16 CONF
+Copia della fattura elettronica disponibile nella Sua area
+riservata dell’Agenzia delle Entrate
+Ilva Imponibile Imposta
+22: Imponibile 22% € 497,60 € 109,47
+Pagamento: Bonifico vista fattura Tot. imponibile € 497,60
+INTESA SAN PAOLO S.P.A Tot. Ilva € 109,47
+IBAN IT 67 R 03069 03202 100000067680
+Scadenze: 31/12/2024 € 607,07
+Tot. documento € 607,07
+Nel rispetto dalla normativa vigente, ivi incluso DL 196/03 e reg. UE 2016/679, informiamo che i Vs. dati saranno utilizzati ai soli fini connessi ai rapporti commercial tra di noi in essere.
+Pag. 1 """,
+        "labels": {
+            "id": "1521",
+            "date": "31/12/2024",
+            "supplier": "GI.GROUP SRL",
+            "products": [
+                {   "id": "82228600",
+                    "name": "TOVAGLIOLO 24X24 DRINK ECONATURAL - FIBERPACK - CONFEZIONE 100PZ - CARTONE 12 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 120,
+                    "cost": 2.5,
+                    "vat_rate": 22 },
+
+                {   "id": "0097",
+                    "name": "FOODBOX SMART FOLDABLE - PAPER KRAFT 152X120X65 MM - CARTONE 300 PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 1,
+                    "cost": 65,
+                    "vat_rate": 22 },
+
+                {   "id": "91112",
+                    "name": "BICCHIERE CARTA L/CALDO 120Z- 360ML -CONF 50PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 8,
+                    "cost": 4.5,
+                    "vat_rate": 22 },
+
+                {   "id": "99112",
+                    "name": "COPERCHIO BICCHIERE 120Z-360 ML-CONF 50PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 3,
+                    "cost": 4.2,
+                    "vat_rate": 22 },
+
+                {   "id": "99154",
+                    "name": "COPERCHIO CARTA BICCHIERE 80Z-240 ML - CONF 50PZ S/BECCUCCIO",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 8,
+                    "cost": 3,
+                    "vat_rate": 22 },
+
+                {   "id": "82994000",
+                    "name": "TOVAGLIOLO 38X38 ECONATURAL - MICROCOLLATO - CONFEZIONE 40PZ - CARTONE 30 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 30,
+                    "cost": 1,
+                    "vat_rate": 22 },
+
+                {   "id": "91110AL",
+                    "name": "BICCHIERE CART.BIO 80Z-240 ML- CONF 50 PZ- CARTONE 16 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 7,
+                    "cost": 3,
+                    "vat_rate": 22 },
+
+                {"id": "91110AL",
+                 "name": "BICCHIERE CART.BIO 80Z-240 ML- CONF 50 PZ- CARTONE 16 CONF",
+                 "supplier": "GI.GROUP SRL",
+                 "quantity": 3,
+                 "cost": 3,
+                 "vat_rate": 22},
+
+            ],
+            "amount": 607.07,
+            "vat_amount": 109.47
+        }
+    },
 ]
