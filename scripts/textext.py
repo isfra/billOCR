@@ -5,14 +5,15 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\\Program Files\\Tesseract-OCR\\tess
 
 def extract_text_from_pdf(pdf_path):
     # Convert PDF pages to images
-    images = convert_from_path(pdf_path)
+    images = convert_from_path(pdf_path,poppler_path=r'C:\\Program Files\\poppler-24.08.0\\Library\\bin')
     text = ""
     for image in images:
         # Extract text from each image
         text += pytesseract.image_to_string(image)
     return text
 
+
 # Example usage
-pdf_path = "..\\data\\Fattura-3.pdf"
+pdf_path = "..\\data\\training\\Fattura-3.pdf"
 extracted_text = extract_text_from_pdf(pdf_path)
 print(extracted_text)
