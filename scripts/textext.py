@@ -14,6 +14,6 @@ def extract_text_from_pdf(pdf_path):
 
 
 # Example usage
-pdf_path = "..\\data\\training\\Fattura-1.pdf"
+pdf_path = "..\\data\\training\\Fattura-2.pdf"
 extracted_text = extract_text_from_pdf(pdf_path)
 print(extracted_text)
