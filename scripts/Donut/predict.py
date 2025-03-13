@@ -3,12 +3,12 @@ import re
 from transformers import DonutProcessor, VisionEncoderDecoderModel
 
 # Load the fine-tuned model and processor
-model_path = "./results/final_model"
+model_path = "./results/Donut/final_model"
 model = VisionEncoderDecoderModel.from_pretrained(model_path)
 processor = DonutProcessor.from_pretrained(model_path)
 
 # Load a new invoice image
-image = Image.open("new_invoice.png").convert("RGB")
+image = Image.open("..\\..\\data\\images\\training\\Fattura-2.png").convert("RGB")
 
 # Preprocess the image
 pixel_values = processor(image, return_tensors="pt").pixel_values

@@ -1,9 +1,11 @@
 from transformers import DonutProcessor, VisionEncoderDecoderModel
 import dataset_donut
 from datasets import Dataset
-import pytorch_lightning as pl
-from transformers import AdamW
+
 from PIL import Image
+import pytorch_lightning as pl
+from pytorch_lightning.callbacks import ModelCheckpoint
+from transformers import AdamW
 
 
 # Load Donut processor and model
@@ -60,12 +62,23 @@ class DonutModel(pl.LightningModule):
 # Initialize the model
 donut_model = DonutModel(model)
 
+# Define the ModelCheckpoint callback
+checkpoint_callback = ModelCheckpoint(
+    dirpath="./results/Donut",  # Directory to save checkpoints
+    filename="donut-invoice-parser-{epoch}-{train_loss:.2f}",  # Checkpoint file name
+    monitor="train_loss",  # Metric to monitor
+    mode="min",  # Save the model when the monitored metric is minimized
+    save_top_k=1,  # Save only the best model
+)
+
 # Define the Trainer
 trainer = pl.Trainer(
     max_epochs=3,
     gpus=1,  # Use GPU if available
+    callbacks=[checkpoint_callback],  # Add the checkpoint callback
 )
-
 
 # Fine-tune the model
 trainer.fit(donut_model, tokenized_dataset)
+
+
