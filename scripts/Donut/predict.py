@@ -3,7 +3,7 @@ import re
 from transformers import DonutProcessor, VisionEncoderDecoderModel
 
 # Load the fine-tuned model and processor
-model_path = "./results/Donut/final_model"
+model_path = "../results/Donut"
 model = VisionEncoderDecoderModel.from_pretrained(model_path)
 processor = DonutProcessor.from_pretrained(model_path)
 
@@ -28,10 +28,10 @@ print(predicted_text)
 def parse_predicted_output(predicted_text):
     result = {}
     # Extract fields using regex
-    result["invoice_number"] = re.search(r"Invoice Number: (.+)", predicted_text).group(1)
-    result["invoice_date"] = re.search(r"Invoice Date: (.+)", predicted_text).group(1)
-    result["supplier_name"] = re.search(r"Supplier Name: (.+)", predicted_text).group(1)
-    result["total_amount"] = float(re.search(r"Total Amount: €([\d,]+)", predicted_text).group(1).replace(",", ""))
+    result["id"] = re.search(r"id: (.+)", predicted_text).group(1)
+    result["date"] = re.search(r"Date: (.+)", predicted_text).group(1)
+    result["supplier"] = re.search(r"Supplier: (.+)", predicted_text).group(1)
+    result["amount"] = float(re.search(r"Amount: €([\d,]+)", predicted_text).group(1).replace(",", ""))
     result["vat_amount"] = float(re.search(r"VAT Amount: €([\d,]+)", predicted_text).group(1).replace(",", ""))
 
     # Extract products

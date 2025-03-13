@@ -1,6 +1,6 @@
 dataset_dict = [
     {
-        "image": "..\\..\\data\\training\\Fattura-3.png",
+        "image": "..\\..\\data\\images\\training\\Fattura-3.png",
         "labels": {
             "id": "1341",
             "date": "02/11/2024",
@@ -117,7 +117,7 @@ dataset_dict = [
         }
     },
 {
-        "image": "..\\..\\data\\training\\Fattura-1.png",
+        "image": "..\\..\\data\\images\\training\\Fattura-1.png",
         "labels": {
             "id": "1521",
             "date": "31/12/2024",
