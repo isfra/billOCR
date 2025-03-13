@@ -51,5 +51,5 @@ def parse_predicted_output(predicted_text):
 
 
 # Example usage
-parsed_output = parse_predicted_output(predicted_text)
-print(parsed_output)
+#parsed_output = parse_predicted_output(predicted_text)
+#print(parsed_output)
