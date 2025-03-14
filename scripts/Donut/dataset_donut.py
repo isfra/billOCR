@@ -116,6 +116,116 @@ dataset_dict = [
             "vat_amount": 233.51
         }
     },
+{   #Fattura-2
+        "image": "..\\..\\data\\images\\training\\Fattura-2.png",
+        "labels": {
+            "id": "1371",
+            "date": "02/12/2024",
+            "supplier": "GI.GROUP SRL",
+            "products": [
+                {   "id": "91112",
+                    "name": "BICCHIERE CARTA L/CALDO 120Z- 360ML -CONF 50PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 8,
+                    "cost": 4.5,
+                    "vat_rate": 22 },
+
+                {   "id": "82994000",
+                    "name": "TOVAGLIOLO 38X38 ECONATURAL - MICROCOLLATO CONFEZIONE 40PZ - CARTONE 30 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 90,
+                    "cost": 1,
+                    "vat_rate": 22 },
+
+                {   "id": "91110AL",
+                    "name": "BICCHIERE CART.BIO 80Z-240 ML- CONF 50 PZ-CARTONE 16 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 14,
+                    "cost": 2.55,
+                    "vat_rate": 22 },
+
+                {   "id": "82228600",
+                    "name": "TOVAGLIOLO 24X24 DRINK ECONATURAL - FIBERPACK - CONFEZIONE 100PZ - CARTONE 12 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 72,
+                    "cost": 2.5,
+                    "vat_rate": 22 },
+
+                {   "id": "99154",
+                    "name": "COPERCHIO CARTA BICCHIERE 802-240 ML - CONF 50PZ S/BECCUCCIO",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 9,
+                    "cost": 2.55,
+                    "vat_rate": 22 },
+
+                {   "id": "32620",
+                    "name": "TOVAGLIOLO NERO 25X25-2 VELI-CARTONE 20 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 40,
+                    "cost": 2.1,
+                    "vat_rate": 22 },
+
+                {   "id": "91110AL",
+                    "name": "BICCHIERE CART.BIO 80Z-240 ML- CONF 50 PZ-CARTONE 16 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 20,
+                    "cost": 2.5,
+                    "vat_rate": 22 },
+
+                {   "id": "99112",
+                    "name": "COPERCHIO BICCHIERE 120Z-360 ML-CONF 50PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 3,
+                    "cost": 5,
+                    "vat_rate": 22 },
+
+                {   "id": "91115",
+                    "name": "BICCHIERE CART.BIO 70Z-200 ML- CONF 50 PZ-CARTONE 20 CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 20,
+                    "cost": 2,
+                    "vat_rate": 22 },
+
+                {   "id": "90223",
+                    "name": "BIS POSATE IN LEGNO - WE BIO - TOV.33X33 - CARTONE 500PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 1,
+                    "cost": 55,
+                    "vat_rate": 22 },
+
+                {   "id": "91112",
+                    "name": "BICCHIERE CARTA L/CALDO 120Z- 360ML -CONF",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 3,
+                    "cost": 4,
+                    "vat_rate": 22 },
+
+                {   "id": "99154",
+                    "name": "COPERCHIO CARTA BICCHIERE 802-240 ML - CONF 50PZ S/BECCUCCIO",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 4,
+                    "cost": 3,
+                    "vat_rate": 22 },
+
+                {   "id": "",
+                    "name": "ASTUCCIO PORTA TORTA N 31 -CONF 100PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 100,
+                    "cost": 0.9,
+                    "vat_rate": 22 },
+
+                {   "id": "0097",
+                    "name": "OODBOX SMART FOLDABLE - PAPER KRAFT 152X120X65 MM - CARTONE 300 PZ",
+                    "supplier": "GI.GROUP SRL",
+                    "quantity": 1,
+                    "cost": 65,
+                    "vat_rate": 22 },
+
+            ],
+            "amount": 851.13,
+            "vat_amount": 153.48
+        }
+    },
 {
         "image": "..\\..\\data\\images\\training\\Fattura-1.png",
         "labels": {

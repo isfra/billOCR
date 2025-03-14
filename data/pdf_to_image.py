@@ -19,6 +19,6 @@ def pdf_to_images(folder_path, output_folder):
 
 
 if __name__ == "__main__":
-    input_folder = "..\\..\\data\\pdf\\test"  # Change this to your PDF folder path
-    output_folder = "..\\..\\data\\images\\test"  # Change this to where images should be saved
+    input_folder = ".\\pdf\\training"  # Change this to your PDF folder path
+    output_folder = ".\\images\\training"  # Change this to where images should be saved
     pdf_to_images(input_folder, output_folder)
