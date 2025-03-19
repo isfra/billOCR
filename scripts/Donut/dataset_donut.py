@@ -294,4 +294,29 @@ dataset_dict = [
             "vat_amount": 109.47
         }
     },
+{   #Fattura 97-25 del 30-01-2025 Faro S R L
+        "image": "..\\..\\data\\images\\training\\Fattura 97-25 del 30-01-2025 Faro S R L.png",
+        "labels": {
+            "id": "97/25",
+            "date": "30/01/2025",
+            "supplier": "Gold Star S.R.L.",
+            "products": [
+                {   "id": "590001",
+                    "name": "BOX TAKE AWAY KRAFT/PE BASE CM 13X10,5X6,5 ML 650 PZ 50",
+                    "supplier": "Gold Star S.R.L.",
+                    "quantity": 4,
+                    "cost": 7.8,
+                    "vat_rate": 22 },
+
+                {   "id": "OK.V384R36",
+                    "name": "TOVAGLIOLO OV 2V. ECOFRIENDLY 38X38 RECYCLED CONF .40PZ",
+                    "supplier": "Gold Star S.R.L.",
+                    "quantity": 36,
+                    "cost": 1.13,
+                    "vat_rate": 22 },
+            ],
+            "amount": 81.36,
+            "vat_amount": 14.67
+        }
+    },
 ]

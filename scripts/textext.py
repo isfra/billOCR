@@ -9,11 +9,11 @@ def extract_text_from_pdf(pdf_path):
     text = ""
     for image in images:
         # Extract text from each image
-        text += pytesseract.image_to_string(image)
+        text += pytesseract.image_to_string(image, lang='ita')
     return text
 
 
 # Example usage
-pdf_path = "..\\data\\pdf\\training\\Fattura-2.pdf"
+pdf_path = "..\\data\\pdf\\training\\Fattura 97-25 del 30-01-2025 Faro S R L.pdf"
 extracted_text = extract_text_from_pdf(pdf_path)
 print(extracted_text)

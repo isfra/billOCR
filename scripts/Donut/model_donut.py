@@ -97,7 +97,7 @@ checkpoint_callback = ModelCheckpoint(
 
 # Define the Trainer
 trainer = pl.Trainer(
-    max_epochs=2,
+    max_epochs=5,
     accelerator="cpu",  # Use CPU for training
     callbacks=[checkpoint_callback],  # Add the checkpoint callback
 )

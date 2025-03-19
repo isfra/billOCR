@@ -456,4 +456,76 @@ Pag. 1 """,
             "vat_amount": 109.47
         }
     },
+{   #Fattura 97-25 del 30-01-2025 Faro S R L
+        "text": """Gold Star S.R.L.
+
+Via Deruta 98/A - 00181 Roma (RM) - Italy
+
+Tel. 0645752037
+
+e-mail: goldstarsoluzioni@gmail.com Pec: goldstar_srli@pec.it Internet: w w w .goldstarnow .it
+C.F./P.lva 11669221001 Reg. imprese RM-1320428
+
+goldstar
+Fattura nr. 97/25 del | 30/01/2025
+Destinatario Destinazione
+Faro S.R.L. Faro S.R.L.
+Via Piave 55 Via Piave 55
+00187 ROMA (RM) 187 Roma (RM)
+
+C.F/P.lva 13796331000
+
+Codice Descrizione Quantita Prezzo Sconto Importo Ilva
+Rif. Fattura pro-forma 3537/2024 del 30/12/2024:
+
+590001 BOX TAKE AWAY KRAFT/PE BASE CM 13X10,5X6,5 ML 450 € 7,8000 10% € 28,08 22
+650 PZ 50
+
+OK.V384R36 TOVAGLIOLO OV 2V. ECOFRIENDLY 38X38 RECYCLED 36 € 1,1300 10% € 36,61 22
+CONF .40PZ.
+
+Copia della fattura elettronica disponibile nel sistema
+
+SDI
+
+Iva Imponibile Imposta
+
+22: Imponibile 22 € 66,69 € 14,67
+
+Pagamento: Assegno Tot. importi € 64,69
+Spese di trasporto € 2,00
+Tot. imponibile € 66,69
+Tot. Iva € 14,67
+
+Scadenze: 30/01/2025 € 81,36
+
+NON VALIDA Al FINI FISCALI. La fattura sara inviata secondo le modalia =f
+
+previste dalla legge. Tot. documento € 81,36
+
+Nel rispetto dalla normativa vigente, ivi incluso DL 196/03 e reg. UE 2016/679, informiamo che i Vs. dati saranno utiizzati ai soli fini connessi ai rapporti commerciali tra di noi in essere.
+Pag. 1 Contributo CONAI assolto ove dovuto - Vi preghiamo di controllare i Vs. dati anagrafici, la P. IVA e il Cod. Fiscale. Non ci riteniamo responsabil di eventuali errori. """,
+        "labels": {
+            "id": "97/25",
+            "date": "30/01/2025",
+            "supplier": "Gold Star S.R.L.",
+            "products": [
+                {   "id": "590001",
+                    "name": "BOX TAKE AWAY KRAFT/PE BASE CM 13X10,5X6,5 ML 650 PZ 50",
+                    "supplier": "Gold Star S.R.L.",
+                    "quantity": 4,
+                    "cost": 7.8,
+                    "vat_rate": 22 },
+
+                {   "id": "OK.V384R36",
+                    "name": "TOVAGLIOLO OV 2V. ECOFRIENDLY 38X38 RECYCLED CONF .40PZ",
+                    "supplier": "Gold Star S.R.L.",
+                    "quantity": 36,
+                    "cost": 1.13,
+                    "vat_rate": 22 },
+            ],
+            "amount": 81.36,
+            "vat_amount": 14.67
+        }
+    },
 ]
